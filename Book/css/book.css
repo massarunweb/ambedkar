@@ -1,0 +1,52 @@
+
+.carouselExampleControls{
+  padding:5%;
+}
+.next{
+  margin-left: -9rem;
+}
+.row1{
+  margin-top: 100px;
+}
+.container{
+  margin-top: 70px;
+  text-align: center;
+}
+body{
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  color: rgb(42, 188, 2);
+  font-family: arun;
+  text-shadow: 8px 8px 12px rgb(200, 255, 0);
+}
+@font-face {
+  font-family: arun;
+  src: url(../Fonts/HoltwoodOneSC-Regular.ttf);
+}
+
+img{
+  border: 2px solid red;
+}
+#card{
+  border: 2px solid black;
+  box-shadow: 2px 3px 5px 5px  gray;
+}
+h2{
+  text-align: center;
+  color: brown;
+  padding: 50px;
+  text-shadow: 8px 8px 12px black;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+

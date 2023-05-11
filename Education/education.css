@@ -1,0 +1,195 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    
+    text-shadow: 5px 5px 12px rgb(255, 71, 4);
+    margin: 30px 0px 0px 30%;
+    position: absolute;
+    font-family: arun;
+    font-size: 25px;
+}
+h2{
+    text-shadow: 5px 5px 12px rgb(255, 71, 4);
+    margin: 0px 0px 0px 15%;
+    position: absolute;
+    font-family: cursive;
+    font-size: 25px;
+}
+.container,
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: -5px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Images/Background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: .5; */
+}
+
+.frame {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin-top: -10px;
+}
+
+.center {
+    margin-left: 25%;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 135px;
+    left: 70px;
+    perspective: 60px;
+    transform-style: preserve-3d;
+}
+
+.card {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+  
+}
+
+.card-1 {
+    animation: animate1 20s linear infinite;
+    transition: .5s;
+}
+
+
+.card-2 {
+    animation: animate2 6s linear infinite;
+    transition: .5s;
+
+}
+
+
+.card-3 {
+    transition: .5s;
+    animation: animate3 7s linear infinite;
+}
+.card-4 {
+    transition: .5s;
+    animation: animate4 8s linear infinite;
+}
+.card-5 {
+    transition: .5s;
+    animation: animate5 9s linear infinite;
+}
+.card-6 {
+    transition: .5s;
+    animation: animate6 10s linear infinite;
+}
+
+@font-face {
+    font-family:arun ;
+    src: url("./Metal_Mania/MetalMania-Regular.ttf");
+}
+
+.content {
+    background: #FFF;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: repeat(5, 5px);
+    padding: 2em 1em;
+    box-shadow: 10px 10px 12px rgb(91, 89, 89);
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+}
+.content img{
+    border: 3px solid rgba(250, 0, 0, 0.719);
+}
+.content h2{
+    margin-top: 70%;
+    margin-left: 20px;
+    text-shadow: 5px 5px 12px rgb(255, 71, 4);
+   font-family: arun;
+}
+.content span{
+    margin-top: 80%;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 5px 12px rgb(47, 216, 8);
+}
+
+
+@keyframes animate1 {
+    0%, 100% {
+        transform: translate3d(0, 0, 0);
+    }
+    25% {
+        transform: translate3d(200px, 0, -45px);
+    }
+    50% {
+        transform: translate3d(-200px, 0, -45px);
+    }
+}
+
+@keyframes animate2 {
+    0%, 100% {
+        transform: translate3d(200px, 0, -45px);
+    }
+    25% {
+        transform: translate3d(-200px, 0, -45px);
+    }
+    50% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes animate3 {
+    0%, 100% {
+        transform: translate3d(-200px, 0, -45px);
+    }
+    25% {
+        transform: translate3d(0, 0, 0);
+    }
+    50% {
+        transform: translate3d(200px, 0, -45px);
+    }
+}
+@keyframes animate4 {
+    0%, 100% {
+        transform: translate3d(0, 0, 0);
+    }
+    25% {
+        transform: translate3d(200px, 0, -45px);
+    }
+    50% {
+        transform: translate3d(-200px, 0, -45px);
+    }
+}
+@keyframes animate5 {
+    0%, 100% {
+        transform: translate3d(0, 0, 0);
+    }
+    25% {
+        transform: translate3d(200px, 0, -45px);
+    }
+    50% {
+        transform: translate3d(-200px, 0, -45px);
+    }
+}
+@keyframes animate6 {
+    0%, 100% {
+        transform: translate3d(0, 0, 0);
+    }
+    25% {
+        transform: translate3d(200px, 0, -45px);
+    }
+    50% {
+        transform: translate3d(-200px, 0, -50px);
+    }
+}

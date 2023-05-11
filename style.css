@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url(./Images/Body\ Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background: linear-gradient(orange, white, green);
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#sign {
+    display: block;
+    position: absolute;
+    margin: -30px 0px 0px 50px;
+    transform: rotate(15deg);
+}
+
+.menu ul {
+    display: flex;
+    margin-top: 30px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    margin: 30px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: rgb(187, 29, 29);
+    transition: .5s;
+}
+
+.black {
+    background-color: #0000009c;
+    height: 100vh;
+}
+
+.banner img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.phara1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -500px;
+}
+
+.birth {
+    margin-top: 50px;
+}
+
+.birth h1 {
+    color: rgb(187, 29, 29);
+    font-size: 60px;
+    font-family: cursive;
+    margin: 20px;
+    text-shadow: 2px 3px 5px #fc7a00;
+}
+
+.birth h3 {
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Fasthand', cursive;
+    margin: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 8px #ffffff;
+}
+
+.birth h4 {
+    color: #fff;
+    font-size: 40px;
+    margin: 20px;
+    text-shadow: 2px 2px 8px #33ff00;
+    text-align: center;
+    font-family: 'Fasthand', cursive;
+}
+
+.main {
+    margin-top: -80px;
+}
+
+.wrapper2 {
+    margin-top: 50px;
+}
+
+.wrapper2 h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 8px #000000;
+    letter-spacing: 5px;
+
+}
+
+.family {
+    display: flex;
+}
+
+.family img {
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.family ul li {
+    margin: 45px;
+    color: rgb(109, 107, 107);
+    font-family: cursive;
+    font-size: 20px;
+    list-style-type: circle;
+}
+
+.baroda {
+    display: flex;
+}
+
+.container3 {
+    width: 1200px;
+    margin: auto;
+}
+
+.content1 {
+    margin-top: 50px;
+}
+
+.container3 h1 {
+    font-family: system-ui, 'Segoe UI', 'Open Sans';
+    text-shadow: 2px 2px 8px rgb(255, 0, 0);
+    letter-spacing: 10px;
+    width: 50%;
+    border-bottom: 2px solid #4ada12;
+    margin: 50px 0px 0px 25%;
+}
+
+.content1 img {
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.phara3 {
+    margin-top: 120px;
+    padding: 30px;
+}
+
+.phara3 h2 {
+    text-shadow: 2px 2px 10px rgb(255, 51, 0);
+    font-family: cursive;
+}
+
+.phara3 ul li {
+    margin: 30px;
+    font-family: cursive;
+    list-style-type: disc;
+    color: gray;
+}
+
+.phara4 {
+    margin-top: 80px;
+}
+
+.phara4 h1 {
+    text-align: center;
+    margin: 40px;
+    text-shadow: 5px 5px 8px orangered;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+.map {
+    background-image: url(./Images/Baroda\ Map.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    opacity: 0.5;
+    border: 5px solid black;
+}
+
+.familytree {
+    margin-top: 50px;
+}
+
+.familytree h1 {
+    margin: 30px;
+}
+
+.familytree img {
+    border-radius: 30px;
+}
+
+.goldspeech {
+    margin-top: 100px;
+}
+
+.goldspeech h1 {
+    text-align: center;
+    font-family: 'Fasthand', cursive;
+    text-shadow: 5px 8px 8px rgb(250, 92, 0);
+}
+
+.jai {
+    text-align: center;
+}
+
+.jai img {
+    border-radius: 100%;
+}
+
+.wrapper5 {
+    background-color: gray;
+    margin-top: 50px;
+    color: #fff;
+    height: auto;
+    padding: 50px;
+}
+
+.phara5 h1 {
+
+    text-align: center;
+    text-shadow: 8px 8px 10px orangered;
+}
+
+#orange {
+    color: rgba(197, 83, 41, 0.842);
+}
+
+#white {
+    color: #ffffff94;
+}
+
+#green {
+    color: rgba(0, 128, 0, 0.699);
+}
+
+.boxes {
+    display: flex;
+}
+
+.box {
+    width: 33%;
+    height: auto;
+    margin: 2%;
+    padding: 20px;
+    color: #000;
+}
+
+.box h2 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(18, 18, 141, 0.678);
+}
+
+.icon {
+    text-align: left;
+    margin-top: 50px;
+    width: 0px;
+}
+
+.icon i {
+    width: 2px;
+    display: block;
+    margin: 50px;
+}
+
+.icnpahara {
+    margin: -215px 0px 0px 30px;
+
+}
+
+.icnpahara h4 {
+    margin: 50px;
+    font-family: sans-serif;
+}
+
+#bottom {
+    margin: 50px 0px 0px 80px;
+}
+
+#bottom li {
+    list-style-type: none;
+    margin: 20px;
+}
+
+#bottom li a {
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#inpt {
+    margin: 0px 0px 0px 10px;
+    padding: 10px 50px;
+}
+
+.sec {
+    margin: 80px;
+}
+
+.sec button {
+    margin: 50px 0px 0px 100px;
+    padding: 15px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.sec button:hover {
+    background-color: #fc7a00;
+    transition: .5s;
+    box-shadow: 5px 5px 12px gray;
+    transform: scale(1.1)
+}
+
+.sec input {
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.sec input:focus {
+    outline: 3px solid skyblue;
+}
+
+.icon2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.icon2 i {
+    padding: 15px;
+    background-color: #fc7a00;
+    border-radius: 50%;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.copy u {
+    color: rgba(255, 0, 0, 0.596);
+}
